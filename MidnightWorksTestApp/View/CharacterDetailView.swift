@@ -86,7 +86,6 @@ struct CharacterDetailView: View {
             }
         }
         .navigationBarTitle(detailViewModel.choosedCharacter.name, displayMode: .large)
+        .navigationBackButton(color: .black, text: "Back")
     }
 }
-
-

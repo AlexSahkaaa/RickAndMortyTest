@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Kingfisher
 
 struct MainView: View {
     @EnvironmentObject var viewModel: MainViewModel

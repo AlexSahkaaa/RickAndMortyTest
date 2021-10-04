@@ -20,6 +20,7 @@
 		7FF4C8F52709E1960088C7A0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4C8F42709E1960088C7A0 /* MainView.swift */; };
 		7FF4C8F72709E2860088C7A0 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4C8F62709E2860088C7A0 /* CharacterCell.swift */; };
 		7FF4C8F92709E2C80088C7A0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4C8F82709E2C80088C7A0 /* Helpers.swift */; };
+		7FF4C93D270AEA440088C7A0 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF4C93C270AEA440088C7A0 /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		7FF4C8F42709E1960088C7A0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7FF4C8F62709E2860088C7A0 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		7FF4C8F82709E2C80088C7A0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		7FF4C93B270AE6BC0088C7A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7FF4C93C270AEA440088C7A0 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		7FF4C8D52707519A0088C7A0 /* MidnightWorksTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				7FF4C93B270AE6BC0088C7A0 /* Info.plist */,
 				7FF4C8D62707519A0088C7A0 /* MidnightWorksTestAppApp.swift */,
 				7FF4C8ED2709DF180088C7A0 /* Model */,
 				7FF4C8EE2709DF500088C7A0 /* View */,
@@ -76,6 +80,7 @@
 				7FF4C8DA2707519D0088C7A0 /* Assets.xcassets */,
 				7FF4C8DC2707519D0088C7A0 /* Preview Content */,
 				7FF4C8F82709E2C80088C7A0 /* Helpers.swift */,
+				7FF4C93C270AEA440088C7A0 /* View+Ext.swift */,
 			);
 			path = MidnightWorksTestApp;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 				7FF4C8EC2708D7530088C7A0 /* CharacterDetailView.swift in Sources */,
 				7FF4C8F52709E1960088C7A0 /* MainView.swift in Sources */,
 				7FF4C8F12709E0790088C7A0 /* Episode.swift in Sources */,
+				7FF4C93D270AEA440088C7A0 /* View+Ext.swift in Sources */,
 				7FF4C8F92709E2C80088C7A0 /* Helpers.swift in Sources */,
 				7FF4C8F72709E2860088C7A0 /* CharacterCell.swift in Sources */,
 				7FF4C8F32709E0C80088C7A0 /* DetailViewModel.swift in Sources */,
@@ -336,6 +342,7 @@
 				DEVELOPMENT_TEAM = VV6679XAS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MidnightWorksTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -366,6 +373,7 @@
 				DEVELOPMENT_TEAM = VV6679XAS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MidnightWorksTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
